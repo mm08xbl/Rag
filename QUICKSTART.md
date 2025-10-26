@@ -101,7 +101,7 @@ RERANKER_MODEL_PATH = "BAAI/bge-reranker-base"
 
 ### Embedding Model  
 The embedding model runs as a service. To change it:
-1. Open `RAG/embedding/embediing_flask.ipynb`
+1. Open `RAG/embedding/embedding_flask.ipynb`
 2. Change the model path in that notebook
 3. Restart the embedding service
 

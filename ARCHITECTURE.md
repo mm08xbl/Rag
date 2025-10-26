@@ -64,7 +64,7 @@
 
 ### 🔄 Reranker Model
 - **Location**: `RAG/Rag_test.ipynb` - Cell [6], Line 118  
-- **Current**: `RERANKER_MODEL_PATH = "E:\\RAG\\reranker\\qwen3-reranker"`
+- **Current**: `RERANKER_MODEL_PATH = "./RAG/reranker/qwen3-reranker"`
 - **Change to**: `RERANKER_MODEL_PATH = "BAAI/bge-reranker-base"`
 
 ### 🔢 Embedding Model
@@ -114,7 +114,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True)
 
 ### Reranker Model (Cell 6)
 ```python
-RERANKER_MODEL_PATH = "E:\\RAG\\reranker\\qwen3-reranker"  # ◄── CHANGE THIS
+RERANKER_MODEL_PATH = "./RAG/reranker/qwen3-reranker"  # ◄── CHANGE THIS
 tokenizer = AutoTokenizer.from_pretrained(RERANKER_MODEL_PATH)
 model = AutoModelForCausalLM.from_pretrained(RERANKER_MODEL_PATH)
 ```
