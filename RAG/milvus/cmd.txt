@@ -1,0 +1,1 @@
+milvus-server --data E:\RAG\milvus\server\milvus_lite
